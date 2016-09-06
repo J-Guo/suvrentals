@@ -1,0 +1,6 @@
+[27-May-2016 01:57:57 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting variable (T_VARIABLE) or '$' in /home/suvrentals/public_html/admin/booking_form.php on line 1090
+[02-Jun-2016 09:47:07 Australia/Sydney] PHP Fatal error:  Call to undefined method User::getVehicels() in /home/suvrentals/public_html/admin/booking_form.php on line 599
+[02-Jun-2016 09:47:21 Australia/Sydney] PHP Fatal error:  Call to undefined method User::getVehicels() in /home/suvrentals/public_html/admin/booking_form.php on line 599
+[02-Jun-2016 09:47:34 Australia/Sydney] PHP Fatal error:  Call to undefined method User::getVehicels() in /home/suvrentals/public_html/admin/booking_form.php on line 599
+[01-Jun-2016 23:48:28 UTC] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/suvrentals/public_html/admin/db/connections.php on line 17
+[01-Jun-2016 23:48:33 UTC] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/suvrentals/public_html/admin/db/connections.php on line 17

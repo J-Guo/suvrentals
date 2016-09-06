@@ -1,0 +1,5 @@
+User-Agent: *
+Disallow: 
+Allow: /suvrentals.com.au/
+
+Sitemap: http://suvrentals.com.au/sitemap.xml

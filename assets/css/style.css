@@ -1,0 +1,251 @@
+@font-face {
+    font-family: 'lg_smartsemibold';
+    src: url('lg_smart_semibold-webfont.eot');
+    src: url('lg_smart_semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('lg_smart_semibold-webfont.woff2') format('woff2'),
+         url('lg_smart_semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+    font-family: 'lg_smartsemibold', Arial, sans-serif;
+	color:#c00c3f;
+	font-size:44px;
+}
+button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    user-select: none;
+	z-index:15;
+	position:absolute;
+	bottom:0;
+	right:0;
+}
+
+body {
+    margin: 0;
+	padding:0;
+}
+#ad {
+    display: block;
+    border: rgb(145, 153, 153) 1px solid;
+    overflow: hidden;
+    width: 298px;
+    height: 598px;
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+#banner {
+    position: relative;
+    display: block;
+    width: 298px;
+    height: 598px;
+    overflow: hidden;
+}
+
+#Logo {
+	width: 116px;
+	height:75px;
+	position:absolute;
+	bottom:0;
+	left:0;
+	z-index:9;
+}
+
+#Copy-1 {
+	z-index:6;
+	opacity:0;
+	position:absolute;
+	left:29px;
+	top:40px;
+	animation: Copy1 3s ease-in-out 0s forwards;
+	-webkit-animation: Copy1 3s ease-in-out 0s forwards;
+}
+
+#Copy-2 {
+	z-index:6;
+	opacity:0;
+	position:absolute;
+	left:141px;
+	top:40px;
+	animation: Copy2 3s ease-in-out 1s forwards;
+	-webkit-animation: Copy2 3s ease-in-out 1s forwards;
+}
+
+#Copy-3 {
+	z-index:8;
+	opacity:0;
+	position:absolute;
+	left:19px;
+	top:34px;
+	animation: Copy3 3s ease-in-out 6s forwards;
+	-webkit-animation: Copy3 3s ease-in-out 6s forwards;
+	font-size:37px;
+	line-height:45px;
+	text-align:center;
+}
+
+#BG-1 {
+	z-index:2;
+	opacity:0;
+	animation: BG1 6s ease-in-out 0s;
+	-webkit-animation: BG1 6s ease-in-out 0s;
+	position:absolute;
+	top:0;
+	left:0;
+}
+
+#BG-2 {
+	z-index:3;
+	opacity:0;
+	animation: BG2 3s ease-in-out 0s forwards;
+	-webkit-animation: BG2 3s ease-in-out 0s forwards;
+	position:absolute;
+	top:0;
+	right:70px;
+}
+
+#BG-3 {
+	z-index:4;
+	opacity:0;
+	animation: BG3 3s ease-in-out 1s forwards;
+	-webkit-animation: BG3 3s ease-in-out 1s forwards;
+	position:absolute;
+	top:0;
+	right:70px;
+}
+
+#BG-4 {
+	z-index:5;
+	opacity:0;
+	animation: BG4 3s ease-in-out 2s forwards;
+	-webkit-animation: BG4 3s ease-in-out 2s forwards;
+	position:absolute;
+	top:0;
+	right:70px;
+}
+
+#BG-5 {
+	z-index:7;
+	opacity:0;
+	animation: BG5 3s ease-in-out 5s forwards;
+	-webkit-animation: BG5 3s ease-in-out 5s forwards;
+	position:absolute;
+	top:0;
+	left:0;
+}
+
+
+.buttons {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+	z-index:10;
+}
+.button {
+    height: 598px;
+    width: 248px;
+}
+
+
+
+@keyframes BG1 {
+	0% {opacity:1;}
+	100% {opacity:1;}
+}
+@-webkit-keyframes BG1 {
+	0% {opacity:1;}
+	100% {opacity:1;}
+}
+
+@keyframes BG2 {
+	0% {opacity:1; top:-598px;}
+	10% {opacity:1; top:0;}
+	100% {opacity:1; top:0;}
+}
+
+@-webkit-keyframes BG2 {
+	0% {opacity:1; top:-598px;}
+	10% {opacity:1; top:0;}
+	100% {opacity:1; top:0;}
+}
+
+@keyframes BG3 {
+	0% {opacity:1; top:-598px;}
+	10% {opacity:1; top:0;}
+	100% {opacity:1; top:0;}
+}
+@-webkit-keyframes BG3 {
+	0% {opacity:1; top:-598px;}
+	10% {opacity:1; top:0;}
+	100% {opacity:1; top:0;}
+}
+
+@keyframes BG4 {
+	0% {opacity:1; top:-598px;}
+	10% {opacity:1; top:0;}
+	100% {opacity:1; top:0;}
+}
+@-webkit-keyframes BG4 {
+	0% {opacity:1; top:-598px;}
+	10% {opacity:1; top:0;}
+	100% {opacity:1; top:0;}
+}
+
+@keyframes BG5 {
+	0% {opacity:0;}
+	30% {opacity:1;}
+	100% {opacity:1;}
+}
+@-webkit-keyframes BG5 {
+	0% {opacity:0;}
+	30% {opacity:1;}
+	100% {opacity:1;}
+}
+
+@keyframes Copy1 {
+	0% {opacity:0;}
+	50% {opacity:1;}
+	90% {opacity:1;}
+	100% {opacity:1;}
+}
+@-webkit-keyframes Copy1 {
+	0% {opacity:0;}
+	50% {opacity:1;}
+	90% {opacity:1;}
+	100% {opacity:1;}
+}
+
+@keyframes Copy2 {
+	0% {opacity:0;}
+	50% {opacity:1;}
+	90% {opacity:1;}
+	100% {opacity:1;}
+}
+@-webkit-keyframes Copy2 {
+	0% {opacity:0;}
+	50% {opacity:1;}
+	90% {opacity:1;}
+	100% {opacity:1;}
+}
+
+@keyframes Copy3 {
+	0% {opacity:0;}
+	30% {opacity:1;}
+	100% {opacity:1;}
+}
+@-webkit-keyframes Copy3 {
+	0% {opacity:0;}
+	30% {opacity:1;}
+	100% {opacity:1;}
+}
+
+
